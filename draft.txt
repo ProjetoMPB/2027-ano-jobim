@@ -1,0 +1,7 @@
+listing:
+  contents: eventos
+  sort: "date desc"
+  type: grid
+  fields: [title, date, description, image]
+  categories: false
+  max-items: 6

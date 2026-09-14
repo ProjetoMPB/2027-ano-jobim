@@ -1,0 +1,35 @@
+project:
+  type: website
+
+lang: pt-BR
+
+metadata:
+  published-title: "Data do Evento"
+
+website:
+  title: "2027, Ano Jobim"
+  site-url: https://projetompb.com.br/2027-ano-jobim/
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Principal
+
+      # - href: eventos.qmd
+        # text: Eventos
+      
+      - href: sobre.qmd
+        text: Sobre
+      
+      - href: equipe.qmd
+        text: Equipe
+      
+      - href: chamada-de-obras.qmd
+        text: Chamada de Obras  
+
+format:
+  html:
+    theme: flatly
+    css: assets/css/styles.scss
+    toc: false
+    page-layout: full

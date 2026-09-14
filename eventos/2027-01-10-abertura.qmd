@@ -1,0 +1,21 @@
+---
+title: "Abertura"
+date: 2027-01-10
+categories: [Palestra]
+description: "Abertura do Ano Jobim"
+image: ../assets/img/jobim.png
+---
+
+## Palestrante
+
+Fulano
+
+## Resumo
+
+Nesse evento, etc...
+
+## Agenda
+
+- 14:00 — Abertura
+- 14:15 — Palestra
+- 15:30 — Discussão
