@@ -1,0 +1,66 @@
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inter:wght@300;400;500;600&display=swap');
+
+/* PALETA */
+$body-bg: #F5F1E8;
+$body-color: #1D2B36;
+
+$primary: #2E5E5A;
+
+$link-color: #3F6C7A;
+
+$navbar-bg: #1D2B36;
+$navbar-fg: #F5F1E8;
+
+/* TIPOGRAFIA */
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+/* TÍTULOS */
+h1, h2, h3, h4 {
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 0.02em;
+}
+
+/* HERO TITLE */
+h1.title {
+    font-size: 3.2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* NAVBAR */
+.navbar {
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+/* EVENT CARDS */
+.quarto-grid-item {
+    background: #FAF7F2;
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    transition: all 0.2s ease;
+}
+
+.quarto-grid-item:hover {
+    transform: translateY(-3px);
+}
+
+/* LINKS */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2E5E5A;
+}
+
+/* CONTAINER MAIS AERADO */
+main.content {
+    max-width: 1150px;
+}
